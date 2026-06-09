@@ -114,7 +114,7 @@ Critério de conclusão:
 
 ## 4. Aplicação do patch
 
-Status: `pendente`
+Status: `documentada`
 
 Objetivo:
 
@@ -174,6 +174,10 @@ Critério de conclusão:
 
 - decisão registrada em documento próprio;
 - risco de publicação acidental tratado explicitamente.
+
+Documento relacionado:
+
+- [Decisão 0003: Commit SVN protegido](../decisoes/0003-commit-svn-protegido.md)
 
 ## 7. Protótipo técnico
 
