@@ -53,6 +53,8 @@ Se não houver issue ou se a branch estiver incompatível, avise antes de editar
 
 Ao alterar documentação:
 
+- consulte o [Guia de Consulta da Documentação](docs/guia-da-documentacao.md) antes de criar, mover ou reorganizar documentos;
+- use o guia para escolher a pasta correta e identificar quais índices precisam ser atualizados;
 - use Markdown limpo;
 - escreva em português com acentos;
 - mantenha o texto objetivo e fácil de consultar;
