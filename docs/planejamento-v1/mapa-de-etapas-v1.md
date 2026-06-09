@@ -91,7 +91,7 @@ Documento relacionado:
 
 ## 3. Fluxo de importação
 
-Status: `próxima`
+Status: `documentada`
 
 Objetivo:
 
@@ -111,6 +111,10 @@ Critério de conclusão:
 - fluxo de importação documentado;
 - validações antes da aplicação definidas;
 - estados de sucesso, cancelamento e falha descritos.
+
+Documento relacionado:
+
+- [Importação de alteração](../fluxos/importacao-alteracao.md)
 
 ## 4. Aplicação do patch
 
