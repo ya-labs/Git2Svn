@@ -114,7 +114,7 @@ Critério de conclusão:
 
 ## 4. Aplicação do patch
 
-Status: `pendente`
+Status: `documentada`
 
 Objetivo:
 
@@ -155,6 +155,10 @@ Critério de conclusão:
 - armazenamento local simples decidido;
 - campos mínimos do histórico documentados;
 - limites do histórico local registrados.
+
+Documento relacionado:
+
+- [Histórico local de pacotes](../fluxos/historico-local-pacotes.md)
 
 ## 6. Commit SVN protegido
 
