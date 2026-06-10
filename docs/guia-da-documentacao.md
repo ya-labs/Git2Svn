@@ -143,6 +143,37 @@ Use para orientar análise, edição, commits e PRs mantendo o padrão da YA LAB
 | Contratos operacionais | `docs/contratos/` |
 | Protótipos e provas técnicas | `docs/prototipo/` |
 
+## Quando Atualizar Índices e Guias
+
+Nem toda alteração documental exige atualizar todos os índices.
+
+Atualize sempre:
+
+- o documento principal da tarefa;
+- o mapa relacionado, quando houver mudança de status, próxima issue ou rastreabilidade.
+
+Atualize `docs/README.md` quando:
+
+- o documento novo for importante para leitura inicial;
+- a estrutura de pastas mudar;
+- a navegação pública ficar incompleta sem o novo link.
+
+Atualize este guia quando:
+
+- criar uma nova pasta ou categoria;
+- mudar a função de uma pasta;
+- mover, renomear ou remover documento importante para consulta humana;
+- a pessoa leitora puder ter dificuldade para encontrar o conteúdo depois.
+
+Atualize o `docs/guia-de-documentacao-para-ia.md` quando:
+
+- mudar regra de manutenção documental;
+- mudar fluxo de consulta da IA;
+- mudar o papel de uma pasta ou documento;
+- surgir um padrão novo que a IA deve repetir.
+
+Se a alteração for pequena e localizada, prefira não mexer em índices que não agregam navegação real.
+
 ## Regras de Segurança
 
 Esta documentação é pública.

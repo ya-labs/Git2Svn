@@ -47,8 +47,12 @@ Não leia todos os documentos por padrão. Comece pela menor fonte capaz de resp
 
 Use estas regras antes de editar documentação:
 
-- Se criar documento novo, atualize este guia e também o `docs/guia-da-documentacao.md` quando o documento for relevante para navegação humana.
-- Se mover, renomear ou remover documento, atualize links em `docs/README.md`, `docs/guia-da-documentacao.md`, neste guia e nos documentos relacionados.
+- Atualize sempre o documento principal da tarefa.
+- Atualize o mapa relacionado quando a tarefa mudar status, próxima issue, rastreabilidade ou dependência entre etapas.
+- Atualize `docs/README.md` somente quando o documento novo for importante para leitura inicial, quando a estrutura de pastas mudar ou quando houver mudança relevante no índice público.
+- Atualize `docs/guia-da-documentacao.md` somente quando criar uma nova categoria, mudar a função de uma pasta, mover documentos relevantes para navegação humana ou quando a localização deixar de ser óbvia.
+- Atualize este guia somente quando mudar regra de manutenção, fluxo de consulta, papel de uma pasta/documento ou padrão que a IA deve repetir.
+- Se mover, renomear ou remover documento, atualize apenas os links diretamente afetados e os índices necessários para evitar navegação quebrada.
 - Se alterar premissa de manutenção, atualize a seção de premissas deste guia.
 - Se alterar fluxo de uso, revise contratos e decisões relacionadas.
 - Se alterar contrato operacional, revise mapas da v1 e provas técnicas relacionadas.
@@ -61,6 +65,8 @@ Ao finalizar alterações documentais:
 1. Valide links Markdown locais.
 2. Execute `git diff --check`.
 3. Informe uma sugestão de commit no padrão do projeto.
+
+Não trate atualização de índices como obrigação automática. A regra padrão é fazer a menor alteração documental suficiente para entregar a issue com rastreabilidade e navegação aceitáveis.
 
 ## Premissas de Manutenção
 

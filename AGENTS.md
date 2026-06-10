@@ -78,12 +78,14 @@ Ao alterar documentação:
 - consulte o [Guia de Documentação Para IA](docs/guia-de-documentacao-para-ia.md) antes de leituras amplas, criação de documentos ou alteração documental relevante;
 - consulte o [Guia de Consulta da Documentação](docs/guia-da-documentacao.md) antes de criar, mover ou reorganizar documentos;
 - use o guia da IA para localizar fontes, preservar premissas e identificar documentos relacionados;
-- use o guia de consulta para escolher a pasta correta e identificar quais índices precisam ser atualizados;
+- use o guia de consulta para escolher a pasta correta e decidir se algum índice realmente precisa ser atualizado;
 - use Markdown limpo;
 - escreva em português com acentos;
 - mantenha o texto objetivo e fácil de consultar;
 - diferencie problema, alternativa, decisão e implementação;
 - não transforme hipótese técnica em decisão final.
+
+Atualize índices e guias apenas quando isso melhorar a navegação ou preservar uma regra durável. Evite transformar toda alteração documental em atualização automática de `README.md`, `docs/README.md`, `docs/guia-da-documentacao.md` e `docs/guia-de-documentacao-para-ia.md`.
 
 ## Commit sugerido
 
