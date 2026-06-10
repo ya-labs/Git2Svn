@@ -14,7 +14,7 @@ Este mapa não define stack, arquitetura final ou implementação definitiva.
 | --- | --- |
 | Mapa | 03 - Provas Técnicas da v1 |
 | Status geral | `em andamento` |
-| Próxima issue | #29 |
+| Próxima issue | #30 |
 | Objetivo | validar comportamento técnico antes da implementação desktop |
 | Escopo | provas técnicas em ambiente fictício |
 | Fora de escopo | stack final, arquitetura desktop e protótipo visual |
@@ -57,8 +57,8 @@ Status possíveis:
 ```text
 03 - Provas Técnicas da v1
 ├── #28 Geração do patch        documentada
-├── #29 Aplicação do patch      próxima
-├── #30 svn update              pendente
+├── #29 Aplicação do patch      documentada
+├── #30 svn update              próxima
 ├── #31 Base Git local          pendente
 ├── #32 Histórico local         pendente
 ├── #33 Protótipo navegável     pendente
@@ -70,8 +70,8 @@ Status possíveis:
 | Ordem | Issue | Etapa | Documento | Status |
 | --- | --- | --- | --- | --- |
 | 1 | #28 | Geração do patch | `docs/prototipo/prova-tecnica-geracao-patch.md` | `documentada` |
-| 2 | #29 | Aplicação do patch | `docs/planejamento-v1/provas-tecnicas-v1.md` | `próxima` |
-| 3 | #30 | `svn update` | `docs/planejamento-v1/provas-tecnicas-v1.md` | `pendente` |
+| 2 | #29 | Aplicação do patch | `docs/prototipo/prova-tecnica-aplicacao-patch.md` | `documentada` |
+| 3 | #30 | `svn update` | `docs/planejamento-v1/provas-tecnicas-v1.md` | `próxima` |
 | 4 | #31 | Base Git local | `docs/planejamento-v1/provas-tecnicas-v1.md` | `pendente` |
 | 5 | #32 | Histórico local | `docs/planejamento-v1/provas-tecnicas-v1.md` | `pendente` |
 | 6 | #33 | Protótipo navegável | `docs/planejamento-v1/provas-tecnicas-v1.md` | `pendente` |
@@ -110,7 +110,7 @@ Documento relacionado:
 
 ## 2. Aplicação de Patch
 
-Status: `próxima`
+Status: `documentada`
 
 Issue relacionada:
 
@@ -134,9 +134,13 @@ Critério de conclusão:
 - falha controlada em cenário incompatível;
 - estado final do checkout SVN documentado.
 
+Documento relacionado:
+
+- [Prova técnica: Aplicação de Patch](../prototipo/prova-tecnica-aplicacao-patch.md)
+
 ## 3. Atualização pelo SVN
 
-Status: `pendente`
+Status: `próxima`
 
 Issue relacionada:
 
@@ -290,7 +294,7 @@ Este mapa não pretende:
 A próxima issue recomendada é:
 
 ```text
-#29 Documentar prova técnica de aplicação do patch
+#30 Documentar prova técnica de svn update
 ```
 
-Ela continua a sequência prática das validações técnicas da v1, usando como entrada o `patch.diff` descrito na prova de geração.
+Ela continua a sequência prática das validações técnicas da v1, validando a atualização do checkout SVN pela base oficial.

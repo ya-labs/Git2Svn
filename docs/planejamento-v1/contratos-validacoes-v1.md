@@ -12,7 +12,7 @@ O objetivo foi transformar os fluxos documentados em contratos operacionais e pr
 | --- | --- |
 | Mapa | 02 - Contratos e Validações da v1 |
 | Status geral | `documentado` |
-| Próxima issue | continuidade no Mapa 03 pela issue #29 |
+| Próxima issue | continuidade no Mapa 03 pela issue #30 |
 | Objetivo | registrar contratos operacionais e preparação das provas técnicas |
 | Escopo | contratos operacionais e preparação das provas técnicas |
 
@@ -47,8 +47,8 @@ As etapas devem evitar:
 02 - Contratos e Validações da v1
 ├── #27 Contratos operacionais dos comandos   documentada
 ├── #28 Prova técnica de geração do patch     documentada
-├── #29 Prova técnica de aplicação do patch   próxima
-├── #30 Prova técnica de svn update           pendente
+├── #29 Prova técnica de aplicação do patch   documentada
+├── #30 Prova técnica de svn update           próxima
 ├── #31 Estratégia da base Git local          pendente
 ├── #32 Modelo inicial do histórico local     pendente
 ├── #33 Protótipo navegável da v1             pendente
@@ -61,8 +61,8 @@ As etapas devem evitar:
 | --- | --- | --- | --- | --- |
 | 9 | #27 | Contratos operacionais dos comandos | `docs/contratos/operacoes-v1.md` | `documentada` |
 | 10 | #28 | Prova técnica de geração do patch | `docs/prototipo/prova-tecnica-geracao-patch.md` | `documentada` |
-| 11 | #29 | Prova técnica de aplicação do patch | `docs/planejamento-v1/provas-tecnicas-v1.md` | `próxima` |
-| 12 | #30 | Prova técnica de `svn update` | `docs/planejamento-v1/provas-tecnicas-v1.md` | `pendente` |
+| 11 | #29 | Prova técnica de aplicação do patch | `docs/prototipo/prova-tecnica-aplicacao-patch.md` | `documentada` |
+| 12 | #30 | Prova técnica de `svn update` | `docs/planejamento-v1/provas-tecnicas-v1.md` | `próxima` |
 | 13 | #31 | Estratégia da base Git local | `docs/planejamento-v1/provas-tecnicas-v1.md` | `pendente` |
 | 14 | #32 | Modelo inicial do histórico local | `docs/planejamento-v1/provas-tecnicas-v1.md` | `pendente` |
 | 15 | #33 | Protótipo navegável da v1 | `docs/planejamento-v1/provas-tecnicas-v1.md` | `pendente` |
@@ -125,7 +125,7 @@ Documento relacionado:
 
 ## 11. Prova técnica de aplicação do patch
 
-Status: `próxima`
+Status: `documentada`
 
 Objetivo:
 
@@ -144,9 +144,13 @@ Critério de conclusão:
 - falha controlada em cenário incompatível;
 - `svn status` exibido após aplicação.
 
+Documento relacionado:
+
+- [Prova técnica: Aplicação de Patch](../prototipo/prova-tecnica-aplicacao-patch.md)
+
 ## 12. Prova técnica de `svn update`
 
-Status: `pendente`
+Status: `próxima`
 
 Objetivo:
 
@@ -265,5 +269,5 @@ Motivo:
 Próxima execução operacional:
 
 ```text
-#29 Documentar prova técnica de aplicação do patch
+#30 Documentar prova técnica de svn update
 ```
