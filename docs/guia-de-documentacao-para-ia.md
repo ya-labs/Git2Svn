@@ -11,8 +11,7 @@ Use este guia para:
 - encontrar rapidamente a fonte certa;
 - evitar leitura ampla desnecessária;
 - saber quando atualizar cada documento;
-- preservar premissas já combinadas;
-- discutir sugestões com critério técnico antes de aceitar mudanças.
+- preservar premissas documentais já combinadas.
 
 ## Fluxo de Consulta da IA
 
@@ -35,7 +34,7 @@ Não leia todos os documentos por padrão. Comece pela menor fonte capaz de resp
 | `AGENTS.md` | Definir regras para assistentes de IA no repositório. | Antes de qualquer alteração relevante ou dúvida sobre fluxo da IA. | Quando mudar regra de trabalho, fluxo obrigatório, segurança, postura ou governança da IA. | `IA`, `fluxo de trabalho`, `documentação`, `commit sugerido` |
 | `docs/README.md` | Índice público da documentação. | Quando precisar listar documentos existentes ou conferir estrutura. | Quando criar, mover, renomear ou remover documento relevante para navegação. | `leitura inicial`, `estrutura atual`, `padrões` |
 | `docs/guia-da-documentacao.md` | Guia humano de localização da documentação. | Quando precisar escolher a pasta correta ou orientar uma pessoa leitora. | Quando a estrutura documental mudar ou surgir novo documento relevante para consulta humana. | `pastas`, `onde atualizar`, `leitura rápida` |
-| `docs/guia-de-documentacao-para-ia.md` | Guia vivo de consulta e manutenção documental para IA. | Antes de leituras amplas, criação de docs ou alteração documental relevante. | Sempre que documento, premissa, matriz, fluxo de consulta ou regra de manutenção mudar. | `matriz`, `premissas`, `manual de atualização`, `postura crítica` |
+| `docs/guia-de-documentacao-para-ia.md` | Guia vivo de consulta e manutenção documental para IA. | Antes de leituras amplas, criação de docs ou alteração documental relevante. | Sempre que documento, premissa, matriz ou fluxo de consulta documental mudar. | `matriz`, `premissas`, `manual de atualização` |
 | `docs/planejamento-inicial/` | Registrar problema, contexto e alternativas iniciais. | Quando a tarefa envolver motivo do produto, problema original ou alternativas avaliadas. | Quando descoberta inicial ou alternativa relevante mudar sem virar decisão final. | `problema`, `alternativa`, `contexto`, `risco` |
 | `docs/decisoes/` | Registrar decisões aceitas, contexto e consequências. | Quando precisar confirmar escolha já tomada ou evitar reabrir discussão decidida. | Quando uma decisão for aceita, substituída ou tiver consequência importante alterada. | `decisão`, `consequências`, `escopo`, `.svnflow`, `commit SVN` |
 | `docs/fluxos/` | Descrever comportamento esperado do produto para cada fluxo de uso. | Quando a tarefa envolver experiência, sequência de ações, validações ou mensagens de fluxo. | Quando comportamento esperado, entrada, saída ou limite de um fluxo mudar. | `exportação`, `importação`, `patch.diff`, `svn update`, `histórico local` |
@@ -116,30 +115,9 @@ Não registre hipótese técnica como decisão final. Se ainda for hipótese, ma
 
 O `docs/guia-da-documentacao.md` é voltado para pessoas e localização da documentação.
 
-Este guia é voltado para IA e manutenção operacional da documentação.
+Este guia é voltado para consulta e manutenção documental pela IA.
 
-Não misture os papéis: o guia humano deve continuar simples; este guia pode conter regras de consulta, atualização e postura.
-
-## Postura Crítica da IA
-
-A IA não deve concordar automaticamente com sugestões do usuário.
-
-Ao receber uma sugestão:
-
-1. Compare com as premissas deste guia.
-2. Verifique se existe decisão, fluxo, contrato ou mapa relacionado.
-3. Avalie risco de duplicação, ruído documental, overengineering ou perda de rastreabilidade.
-4. Concorde apenas quando a sugestão for coerente com o projeto.
-5. Quando discordar, explique de forma curta e proponha alternativa.
-
-Respostas esperadas:
-
-- `Faz sentido, mas eu ajustaria este ponto...`
-- `Eu não seguiria por esse caminho porque...`
-- `A ideia é boa, mas pertence a outro documento...`
-- `Concordo com a intenção, não com a forma...`
-
-Discordar com critério faz parte do papel da IA neste projeto.
+Não misture os papéis: o guia humano deve continuar simples; este guia deve orientar localização, consulta e atualização de documentos. Regras de comportamento da IA pertencem ao `AGENTS.md`.
 
 ## Palavras-chave Por Tema
 

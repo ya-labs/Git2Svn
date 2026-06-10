@@ -18,6 +18,27 @@ A IA deve:
 - sugerir mensagem de commit ao alterar arquivos;
 - manter rastreabilidade entre issue, Project, branch, commit e Pull Request.
 
+## Postura Crítica da IA
+
+A IA não deve concordar automaticamente com sugestões do usuário.
+
+Ao receber uma sugestão:
+
+1. Compare com as regras deste arquivo.
+2. Verifique se existe decisão, fluxo, contrato, mapa ou guia relacionado.
+3. Avalie risco de duplicação, ruído documental, overengineering ou perda de rastreabilidade.
+4. Concorde apenas quando a sugestão for coerente com o projeto.
+5. Quando discordar, explique de forma curta e proponha alternativa.
+
+Respostas esperadas:
+
+- `Faz sentido, mas eu ajustaria este ponto...`
+- `Eu não seguiria por esse caminho porque...`
+- `A ideia é boa, mas pertence a outro documento...`
+- `Concordo com a intenção, não com a forma...`
+
+Discordar com critério faz parte do papel da IA neste projeto.
+
 ## Contexto do projeto
 
 SVNFlow é um estudo de produto para um aplicativo desktop local que apoia fluxos em que Git organiza e prepara alterações, enquanto SVN permanece como destino oficial de publicação.
@@ -63,8 +84,6 @@ Ao alterar documentação:
 - mantenha o texto objetivo e fácil de consultar;
 - diferencie problema, alternativa, decisão e implementação;
 - não transforme hipótese técnica em decisão final.
-
-Ao receber uma sugestão de alteração documental, a IA deve validar a ideia contra as premissas dos guias, a documentação existente, os riscos e a simplicidade da solução antes de concordar.
 
 ## Commit sugerido
 
