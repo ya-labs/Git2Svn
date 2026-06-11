@@ -168,12 +168,20 @@ Ao preparar um lote novo:
 - mantenha as demais em `Backlog`;
 - não use Markdown para listar o backlog criado.
 
+Padrão de branch (YABook):
+
+```text
+Formato: area/tipoNumero-descricao
+Exemplo: backend/feat72-validar-disponibilidade-git
+```
+
 Exemplo de aplicação:
 
 ```text
 Milestone: V1 - M1 Ambiente
 Épico: Preparação do Ambiente
-Issue: Validar disponibilidade do Git local
+Issue: #72 Validar disponibilidade do Git local
+Branch: backend/feat72-validar-disponibilidade-git
 Labels: feature, backend
 Project: ya labs development
 Status inicial: Backlog ou Pronto para dev
@@ -200,6 +208,13 @@ Labels iniciais do SVNFlow:
 | `architecture` | Área | Decisões ou desenho estrutural do produto. |
 | `prototype` | Área | Provas técnicas, experimentos e validações antes da implementação final. |
 | `process` | Área | Fluxo de trabalho, organização de Project, milestones, épicos e governança do repositório. |
+
+Prefixos curtos para o tipo em mensagem de commit (`area/tipo: descricao`):
+
+| Tipo textual | Prefixo curto |
+| --- | --- |
+| `feature` | `feat` |
+| `process` | `proc` |
 
 Regra prática:
 
@@ -228,6 +243,38 @@ O progresso do épico deve ser observado pelas subissues e pela milestone corres
 Pull Requests devem fechar issues de tarefa, não épicos, salvo quando o PR realmente concluir todo o épico.
 
 Use `Closes #NNN` para a issue implementável relacionada ao PR.
+
+Quando houver pedido de explicação para facilitar aprendizado e navegação do projeto, registre um comentário curto na PR relacionada com o seguinte formato:
+
+- O que é;
+- Por que importa;
+- Onde impacta;
+- Limite.
+
+Esse registro deve ser enxuto, focado em contexto e entendimento rápido. Não abrir issue apenas para esse tipo de explicação.
+
+## Ajustes contínuos de processo
+
+Mudanças pequenas e leves de processo, nomenclatura, organização do repositório e fluxo de trabalho podem ser aplicadas diretamente na `main` sem PR de processo separada.
+
+Use a issue fixa [#86 - Ajustes contínuos de processo e organização](https://github.com/ya-labs/SVNFlow/issues/86) para registrar cada ajuste com um comentário contendo:
+
+- o que mudou;
+- por quê mudou;
+- impacto no fluxo (se houver);
+- commit relacionado (ex.: `abc123`).
+
+Critério para "ajuste pequeno" (pode ir na main direto):
+- Mudança de nomenclatura ou padrão.
+- Ajuste de regra leve de fluxo.
+- Atualização de guia ou documentação de processo.
+- Alteração de organização do repositório.
+
+Critério para "não entra em ajuste" (precisa issue + branch + PR):
+- Mudança de comportamento funcional do produto.
+- Alteração de contrato técnico.
+- Mudança de arquitetura.
+- Trabalho que impacta múltiplas etapas.
 
 O épico deve ser fechado apenas quando:
 
