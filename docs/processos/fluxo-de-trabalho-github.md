@@ -229,6 +229,15 @@ Pull Requests devem fechar issues de tarefa, não épicos, salvo quando o PR rea
 
 Use `Closes #NNN` para a issue implementável relacionada ao PR.
 
+Quando houver pedido de explicação para facilitar aprendizado e navegação do projeto, registre um comentário curto na PR relacionada com o seguinte formato:
+
+- O que é;
+- Por que importa;
+- Onde impacta;
+- Limite.
+
+Esse registro deve ser enxuto, focado em contexto e entendimento rápido. Não abrir issue apenas para esse tipo de explicação.
+
 O épico deve ser fechado apenas quando:
 
 - suas subissues necessárias estiverem concluídas;
