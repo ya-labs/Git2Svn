@@ -27,7 +27,7 @@ Não leia todos os documentos por padrão.
 | `docs/arquitetura/` | Arquitetura conceitual. | Módulos, responsabilidades e comunicação. | Mudança de desenho conceitual. | `módulo`, `responsabilidade`, `pacote` |
 | `docs/requisitos/` | O que o sistema deve fazer. | Requisitos funcionais e não funcionais. | Mudança de capacidade esperada. | `RF-`, `requisito`, `validar` |
 | `docs/fluxos/` | Sequências de uso. | Jornada da pessoa usuária. | Mudança na ordem ou comportamento de uso. | `fluxo`, `preview`, `aplicar`, `commit` |
-| `docs/contratos/` | Formatos e operações. | Pacote, patch, `pr.md`, comandos, entradas e saídas. | Mudança de formato, bloqueio, falha ou validação. | `.svnflow`, `patch.diff`, `pr.md`, `manifest` |
+| `docs/contratos/` | Formatos e operações. | Pacote, patch, `pr.md`, comandos, entradas, saídas e histórico local. | Mudança de formato, bloqueio, falha, validação ou modelo local. | `.svnflow`, `patch.diff`, `pr.md`, `manifest`, `histórico` |
 | `docs/processos/` | Processo de trabalho. | Issue, branch, PR, Project, milestones, épicos e subissues. | Mudança de fluxo operacional do repositório. | `Project`, `milestone`, `epic`, `subissue`, `Pull Request` |
 | `docs/adrs/` | Decisões aceitas. | Confirmar decisão já tomada. | Nova decisão aceita ou substituição de decisão. | `ADR`, `decisão`, `consequências` |
 | `docs/rfcs/` | Propostas abertas. | Ideias ainda não decididas. | Nova proposta em discussão. | `RFC`, `proposta`, `discussão` |
@@ -84,3 +84,4 @@ Discordar com critério faz parte do papel da IA neste projeto.
 | Decisões | `rg -n "ADR|decisão|consequências" docs/adrs` |
 | Requisitos | `rg -n "RF-|requisito|deve" docs/requisitos` |
 | Processo GitHub | `rg -n "Project|milestone|epic|subissue|Pull Request|branch" docs/processos AGENTS.md README.md` |
+| Histórico local | `rg -n "histórico local|evento_aplicacao|gerado|importado|aplicado|falhou" docs/contratos docs/prototipos` |
