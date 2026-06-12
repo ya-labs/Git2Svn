@@ -48,6 +48,14 @@ export {
 	type ShellVisualState,
 	type BuildShellVisualStateInput
 } from './shell-visual';
+export {
+	buildFlowNavigationState,
+	type FlowStepKey,
+	type FlowStepPrerequisites,
+	type FlowNavigationItem,
+	type FlowNavigationState,
+	type BuildFlowNavigationInput
+} from './flow-navigation';
 export { validateEnvironmentState, type EnvironmentStateInput, type EnvironmentStateResult, type EnvironmentStateStatus } from './environment';
 export {
 	checkInitialFlowGate,
