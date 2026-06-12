@@ -40,6 +40,14 @@ export {
 	type MainInterfaceState,
 	type BuildMainInterfaceStateInput
 } from './interface-state';
+export {
+	buildShellVisualState,
+	type V1StageKey,
+	type ShellVisualNavItem,
+	type ShellVisualRegions,
+	type ShellVisualState,
+	type BuildShellVisualStateInput
+} from './shell-visual';
 export { validateEnvironmentState, type EnvironmentStateInput, type EnvironmentStateResult, type EnvironmentStateStatus } from './environment';
 export {
 	checkInitialFlowGate,
