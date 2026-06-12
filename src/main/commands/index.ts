@@ -34,6 +34,12 @@ export {
 	type ExecuteSvnApplyInput,
 	type ExecuteSvnApplyResult
 } from './svn-apply-screen';
+export {
+	buildMainInterfaceState,
+	type InterfaceOperationStatus,
+	type MainInterfaceState,
+	type BuildMainInterfaceStateInput
+} from './interface-state';
 export { validateEnvironmentState, type EnvironmentStateInput, type EnvironmentStateResult, type EnvironmentStateStatus } from './environment';
 export {
 	checkInitialFlowGate,
