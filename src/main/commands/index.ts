@@ -1,5 +1,13 @@
 export { validateGitAvailability, validateGitRepository, type GitValidationResult, type GitRepositoryValidationResult } from './git';
 export { validateSvnAvailability, validateSvnCheckout, type SvnValidationResult, type SvnCheckoutValidationResult } from './svn';
+export {
+	readSvnStatus,
+	type SvnFileStatus,
+	type SvnCheckoutStateStatus,
+	type SvnStatusFile,
+	type SvnCheckoutState,
+	type ReadSvnStatusInput
+} from './svn-status';
 export { validateEnvironmentState, type EnvironmentStateInput, type EnvironmentStateResult, type EnvironmentStateStatus } from './environment';
 export {
 	checkInitialFlowGate,
