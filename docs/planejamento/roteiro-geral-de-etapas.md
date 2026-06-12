@@ -21,7 +21,7 @@ Ele é estático e não deve representar progresso, backlog, checklist, subtaref
 
 | Etapa | Objetivo |
 | --- | --- |
-| Ambiente | Validar Git, SVN e caminhos locais mínimos para operar com segurança. |
+| Ambiente | Validar Git, SVN, caminhos locais e ambientes salvos para operar com segurança. |
 | Workspace Git | Ler branch, base de comparação e alterações preparadas no Git. |
 | Preview de Alterações | Mostrar arquivos afetados e riscos antes de exportar ou aplicar mudanças. |
 | Aplicação SVN | Aplicar alterações no checkout SVN de forma controlada e validada. |
