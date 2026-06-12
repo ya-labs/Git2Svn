@@ -8,6 +8,12 @@ Cada ajuste é aplicado direto na `main` e registrado aqui com referência ao co
 
 ## 2026-06-12
 
+**Commit:** neste commit na `main`
+**Tipo:** fullstack/proc
+**O que mudou:** Ajustada a configuração da janela Electron para garantir a exposição das APIs de preload usadas nas telas Ambiente e Preview.
+**Por quê:** A interface exibia `Falha ao carregar integração de ambiente` e `Falha ao carregar integração de preview`, mesmo com build e testes passando.
+**Impacto:** A aplicação volta a carregar os estados funcionais das etapas iniciais; quando não há cadastro local, a tela passa a mostrar corretamente `Nenhum ambiente salvo encontrado.` em vez de erro de integração.
+
 **Commit:** `00c079b`
 **Tipo:** docs/prod
 **O que mudou:** Criado o manual de uso da V1 com trilhas de trabalho solo e colaboração por pacote `.svnflow`.
