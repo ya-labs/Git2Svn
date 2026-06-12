@@ -14,6 +14,12 @@ export {
 	type ValidatePatchInput,
 	type ValidatePatchResult
 } from './patch-validator';
+export {
+	applyPatch,
+	type ApplyPatchStatus,
+	type ApplyPatchInput,
+	type ApplyPatchResult
+} from './patch-applier';
 export { validateEnvironmentState, type EnvironmentStateInput, type EnvironmentStateResult, type EnvironmentStateStatus } from './environment';
 export {
 	checkInitialFlowGate,
